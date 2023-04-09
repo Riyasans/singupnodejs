@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:textColor="@color/black"
+    android:text="Sing Up"
+    android:textSize="50dp"
+    android:textStyle="bold" />
+
+<EditText
+    android:id="@+id/namebox"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="50dp"
+    android:ems="10"
+    android:hint="UserName"
+    android:inputType="textPersonName"
+    android:background="@drawable/textboxstyle"/>
+
+<EditText
+    android:id="@+id/emailbox"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    android:background="@drawable/textboxstyle"/>
+
+<EditText
+    android:id="@+id/passowrdbox"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="20dp"
+    android:ems="10"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:background="@drawable/textboxstyle"
+    tools:ignore="InvalidId" />
+
+<Button
+    android:id="@+id/singupbutton"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="Sing up"
+    android:background="@drawable/loginbuttonstyle"
+    android:textStyle="bold"/>
+
+
+</LinearLayout>
+
+
